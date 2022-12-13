@@ -2,11 +2,9 @@ package hamcrest;
 
 import static org.hamcrest.CoreMatchers.*;
 
-import org.hamcrest.Description;
 import org.hamcrest.FeatureMatcher;
 import org.hamcrest.Matcher;
 import org.hamcrest.MatcherAssert;
-import org.hamcrest.TypeSafeDiagnosingMatcher;
 import org.junit.jupiter.api.Test;
 
 class TestingHamcrest {

@@ -15,4 +15,6 @@ public class AppTest {
         
     	assertThat(array1.getNumbers()).isEqualTo(array2.getNumbers());
     }
+    
+    
 }

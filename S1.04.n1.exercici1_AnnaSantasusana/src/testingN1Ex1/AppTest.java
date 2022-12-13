@@ -20,12 +20,12 @@ class AppTest {
 	
 	@Test
 	public void listNotNull() {
-	assertNotNull(app.arrayList());
+		assertNotNull(app.arrayList());
 	}
 
 	@Test
 	public void listPositionAugust() {
-	assertEquals(app.arrayList().indexOf("August"), 7);
+		assertEquals(app.arrayList().indexOf("August"), 7);
 	}
 
 		

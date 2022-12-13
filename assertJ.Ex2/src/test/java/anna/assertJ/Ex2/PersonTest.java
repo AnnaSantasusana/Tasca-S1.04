@@ -11,7 +11,7 @@ public class PersonTest {
 	
     @Test
     public void notSameReference() {
-		assertThat(name1).isEqualTo(name2);
+		assertThat(name1).isNotEqualTo(name2);
     }
    
     @Test
